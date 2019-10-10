@@ -1,0 +1,6 @@
+# EpicMapLoader
+
+maps:
+  mapname:
+    folder: 'C:\path\to\map_folder'
+    

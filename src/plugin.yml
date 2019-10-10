@@ -1,0 +1,17 @@
+name: EpicMapLoader
+version: 1.0-INDEV
+api-version: 1.13
+main: com.gmail.justbru00.epic.maploader.main.EpicMapLoaderMain
+commands:
+  downloadmap:
+    description: Attempts to download a map.
+    usage: /downloadmap [mapName] [directDownloadUrl] 
+  listmaps:
+    description: Lists all of the maps that are currently able to be loaded.
+    usage: /listmaps
+  loadmap:
+    description: Attempts to copy and load a fresh copy of a map.
+    usage: /loadmap [mapName]   
+  savemap:
+    description: Saves the currently loaded map.
+    usage: /savemap [mapName]  
